@@ -2,24 +2,39 @@
 #import "@preview/brilliant-cv:2.0.6": cv
 #let metadata = toml("./metadata.toml")
 
-#let current-lang = sys.inputs.at("lang", default: metadata.language)
 
 #let importModules(modules, lang: metadata.language) = {
+
+  let current-lang = sys.inputs.at("lang", default: metadata.language)
   for module in modules {
     include {
-      "modules_" + lang + "/" + module + ".typ"
+      "modules_" + current-lang + "/" + module + ".typ"
     }
   }
 }
 
-// Passiere die ermittelte Sprache an die importModules Funktion
-#let importModules(modules, lang: current-lang) = {
-  for module in modules {
-    include {
-      "modules_" + lang + "/" + module + ".typ"
+// Found in https://github.com/cetz-package/cetz/blob/master/src/util.typ
+// Merges dictionary `b` onto dictionary `a`. (Your function)
+#let merge-dictionary(a, b, overwrite: true) = {
+  for (k, v) in b {
+    if type(a) == dictionary and k in a and type(v) == dictionary and type(a.at(k)) == dictionary {
+      a.insert(k, merge-dictionary(a.at(k), v, overwrite: overwrite))
+    } else if overwrite or k not in a {
+      a.insert(k, v)
     }
   }
+  return a
 }
+
+#let private_data = {
+  if read("secrets.toml") != none {
+    toml("secrets.toml")
+  } else {
+    [:]
+  }
+}
+
+#let metadata = merge-dictionary(metadata, private_data)
 
 #show: cv.with(
   metadata,

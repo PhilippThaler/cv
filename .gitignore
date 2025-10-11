@@ -1,3 +1,4 @@
 *.pdf
 *.typst
 .typst-cache
+secrets.toml
