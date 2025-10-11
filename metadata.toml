@@ -60,17 +60,17 @@ language = "en"
         github = "philippthaler"
         phone = "+33 6 12 34 56 78"
         email = "john.doe@me.org"
-        linkedin = "johndoe"
+#linkedin = "johndoe"
         # gitlab = "yunanwg"
         # homepage = "jd.me.org"
         # orcid = "0000-0000-0000-0000"
         # researchgate = "John-Doe"
         # extraInfo = "I am a cool kid"
-        [personal.info.custom-1]
+#        [personal.info.custom-1]
             # image = "" # Example: image("./path/to/image.png")
-            awesomeIcon = "graduation-cap" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
-            text = "PhD"
-            link = "https://www.example.com"
+#            awesomeIcon = "graduation-cap" # Example: "graduation-cap" see https://typst.app/universe/package/fontawesome/
+#text = "PhD"
+#            link = "https://www.example.com"
 
 # add a new section if you want to include the language of your choice
 # i.e. [[lang.ru]]

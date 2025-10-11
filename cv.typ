@@ -41,10 +41,10 @@
   profilePhoto: image("./src/avatar.png"),
 )
 #importModules((
-  "education",
-  "professional",
-  "projects",
-  "certificates",
-  "publications",
   "skills",
+  "professional",
+  "education",
+  "projects",
+//"certificates",
+//"publications",
 ))

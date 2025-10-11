@@ -8,7 +8,7 @@
 #cvSection("Berufserfahrung & Relevante Projekte")
 
 #cvEntry(
-  title: [Junior Softwareentwickler (DevOps-Schnittstelle)],
+  title: [Self-Hosted DevOps-Infrastruktur (seit 2018)],
   society: [Umfassendes Home-Lab & Permanente Weiterbildung],
   logo: image("../src/logos/xyz_corp.png"),
   date: [05/2018 - Heute],
