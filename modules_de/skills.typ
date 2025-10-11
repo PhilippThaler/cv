@@ -4,19 +4,29 @@
 #let cvSection = cvSection.with(metadata: metadata)
 
 
-#cvSection("Fähigkeiten")
+#cvSection("Kernkompetenzen (Skills)")
 
 #cvSkill(
-  type: [Sprachen],
-  info: [Englisch #hBar() Französisch #hBar() Chinesisch],
+  type: [*Betriebssysteme/Administration:*],
+  info: [Linux (*Debian*, *Arch Linux*, *OpenWrt*), Windows Server (Grundlagen), Infrastructure as Code (IaC) Prinzipien.]
 )
-
 #cvSkill(
-  type: [Technologie Stack],
-  info: [Tableau #hBar() Java (Pandas/Numpy) #hBar() PostgreSQL],
+  type: [*DevOps, Monitoring & Container:*], 
+  info: [*Docker (Fortgeschritten)*, Prometheus, Grafana, Loki (*PLG Stack*), GitLab CI, Jenkins, Uptime Kuma, Watchtower.]
 )
-
 #cvSkill(
-  type: [Persönliche Interessen],
-  info: [jaifej #hBar() Kochen #hBar() Lesen],
+  type: [*Skripting/Automatisierung:*], 
+  info: [*Bash* für Systemaufgaben, Python (Automatisierung), Shell Scripting.]
+)
+#cvSkill(
+  type: [*Datenbanken:*], 
+  info: [*PostgreSQL*, *TimescaleDB*, MariaDB/MySQL, Redis.]
+)
+#cvSkill(
+  type: [*Netzwerk & Security:*], 
+  info: [*OpenWrt Router-Konfiguration*, *WireGuard VPN*, *Pi-hole* (DNS-Level Security), SWAG (Nginx/Reverse Proxy), Samba.]
+)
+#cvSkill(
+  type: [*Entwicklung (Fullstack):*], 
+  info: [Java (JSF, Spring Boot, JUnit), JavaScript, React Native, TypeScript, PHP (Laravel).]
 )

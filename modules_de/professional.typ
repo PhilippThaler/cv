@@ -5,41 +5,49 @@
 #let cvEntry = cvEntry.with(metadata: metadata)
 
 
-#cvSection("Berufliche Erfahrung")
+#cvSection("Berufserfahrung & Relevante Projekte")
 
 #cvEntry(
-  title: [jiafeiajf für Datenwissenschaft],
-  society: [XYZ Gesellschaft],
+  title: [Junior Softwareentwickler (DevOps-Schnittstelle)],
+  society: [Umfassendes Home-Lab & Permanente Weiterbildung],
   logo: image("../src/logos/xyz_corp.png"),
-  date: [2020 - Heute],
-  location: [San Francisco, CA],
+  date: [05/2018 - Heute],
+  location: [Innsbruck, Österreich],
   description: list(
-    [Leitung eines Teams jiafjiejfea Datenwissenschaftlern und -analysten zur Entwicklung und Umsetzung datengesteuerter Strategien, Entwicklung von Prognosemodellen und Algorithmen zur Unterstützung der Entscheidungsfindung im gesamten Unternehmen],
-    [Zusammenarbeit mit der Geschäftsleitung, um Geschäftsmöglichkeiten zu ermitteln und das Wachstum voranzutreiben, Umsetzung bewährter Verfahren für Datenverwaltung, -qualität und -sicherheit],
+    [Aktiver Betrieb und Wartung eines dedizierten *Debian Linux Servers* mit einer komplexen Container-Umgebung (*20+ Dienste*).],
+    [Konfiguration des Netzwerks über *OpenWrt* (Linux-basiert) und Absicherung mittels *WireGuard VPN* und *Pi-hole (DNS-Level Security)*.],
+    [Bereitstellung aller Dienste mittels *Docker* und *docker-compose* hinter einem *SWAG (Nginx) Reverse Proxy*.],
+    [Aufbau eines *Prometheus/Grafana/Loki (PLG)-Stacks* zur zentralen Systemüberwachung und Log-Analyse.],
+    [Anwendung von *Infrastructure as Code (IaC)-Prinzipien* durch Verwaltung der *Arch Linux Dotfiles* auf GitHub.],
+    [Aktive Teilnahme am *Caravan-Programm (Promente)* zur strukturierten und stabilen Wiedereingliederung.],
   ),
-  tags: ("Tags Example here", "Dataiku", "Snowflake", "SparkSQL"),
+//  tags: ("Tags Example here", "Dataiku", "Snowflake", "SparkSQL"),
 )
 
 #cvEntry(
-  title: [Datenanalyst],
-  society: [ABC Unternehmen],
+  title: [Junior Softwareentwickler (DevOps-Schnittstelle)],
+  society: [Ferchau Austria GmbH (Allgemeines Rechenzentrum - ARZ)],
   logo: image("../src/logos/abc_company.png"),
-  date: [2017 - 2020],
-  location: [New York, NY],
+  date: [03/2020 - 07/2022],
+  location: [Innsbruck, Österreich],
   description: list(
-    [Analyse von großen Datenmengen mit SQL und Python, zusammenarbeit mit Teams, um geschäftliche Erkenntnisse zu gewinnen],
-    [Erstellung von Datenvisualisierungen und Dashboards in Tableau, Entwicklung und Pflege von Datenpipelines mit AWS],
+    [Entwicklung und Betreuung von Features für die ebpMG Online-Banking-Plattform des ARZ.],
+    [Aktive Mitarbeit und Support der CI/CD-Pipeline (GitLab CI, Jenkins, Azure DevOps) zur automatisierten Bereitstellung von Anwendungen.],
+    [Arbeit mit Container-Technologien (Docker, Kubernetes) an der Schnittstelle zwischen Entwicklung und Betrieb.],
+    [Entwicklung mit Java, JSF und JavaScript in einem agilen (SCRUM) Umfeld.],
+    [Zusätzliche PHP-Entwicklung einer Schnittstelle zur Verbindung zweier Hotelanwendungen (03/2022 - 07/2022).],
   ),
 )
 
 #cvEntry(
-  title: [Praktikant Datenanalyst],
-  society: [PQR Gesellschaft],
+  title: [Softwareentwickler (Diplomarbeit)],
+  society: [Tiroler Gemüsekiste],
   logo: image("../src/logos/pqr_corp.png"),
-  date: list(
-    [Sommer 2017],
-    [Sommer 2016],
+  date: [11/2018 - 06/2019],
+  location: [Imst, Österreich],
+  description: list(
+    [Entwicklung einer mobilen Applikation für die "Tiroler Gemüsekiste" mit React Native und SQLite.],
+    [Erstellung einer vollautomatisierten CI/CD-Pipeline mit Gitlab CI, um neue Versionen der App zu veröffentlichen.],
+    [Konzeption und Umsetzung eines Java-Parsers zur Konvertierung von Altdaten (HTML) in ein datenbankfreundliches JSON-Format.],
   ),
-  location: [Chicago, IL],
-  description: list([Unterstützung bei der Datenbereinigung, -verarbeitung und -analyse mit Python und Excel, Teilnahme an Teambesprechungen und Mitwirkung bei der Projektplanung und -durchführung]),
 )

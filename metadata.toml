@@ -7,7 +7,8 @@ language = "en"
 [layout]
     # Optional values: skyblue, red, nephritis, concrete, darknight
     # You can also use a custom color by hex code i.e. "#1E90FF"
-    awesome_color = "skyblue"
+    # awesome_color = "skyblue"
+    awesome_color = "#DC3522"
 
     # Skips are for controlling the spacing between sections and entries
     before_section_skip = "1pt"
@@ -50,13 +51,13 @@ language = "en"
     injected_keywords_list = ["Data Analyst", "GCP", "Python", "SQL", "Tableau"]
 
 [personal]
-    first_name = "John"
-    last_name = "Doe"
+    first_name = "Philipp"
+    last_name = "Thaler"
 
     # The order of this section will affect how the entries are displayed
     # The custom value is for any additional information you want to add, name it as custom-1, custom-2, etc.
     [personal.info]
-        github = "yunanwg"
+        github = "philippthaler"
         phone = "+33 6 12 34 56 78"
         email = "john.doe@me.org"
         linkedin = "johndoe"
@@ -83,24 +84,3 @@ language = "en"
     header_quote = "Experienced Data Analyst looking for a full time job starting from now"
     cv_footer = "Curriculum vitae"
     letter_footer = "Cover letter"
-
-[lang.fr]
-    header_quote = "Analyste de données expérimenté à la recherche d'un emploi à temps plein disponible dès maintenant"
-    cv_footer = "Résumé"
-    letter_footer = "Lettre de motivation"
-
-[lang.zh]
-    header_quote = "具有丰富经验的数据分析师，随时可入职"
-    cv_footer = "简历"
-    letter_footer = "申请信"
-
-[lang.it]
-    header_quote = "Senior data analyst attualmente disponibile per una posizione di lavoro full-time"
-    cv_footer = "Curriculum vitae"
-    letter_footer = "Lettera di presentazione"
-
- # For languages that are not written in Latin script
- # Currently supported non-latin language codes: ("zh", "ja", "ko", "ru")
-[lang.non_latin]
-    name = "王道尔"
-    font = "Heiti SC"
