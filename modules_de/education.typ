@@ -12,7 +12,6 @@
   society: [IT Kolleg, Fachrichtung Angewandte Informatik],
   date: [09/2017 - 10/2019],
   location: [Imst, Österreich],
-  logo: image("../src/logos/ucla.png"),
   description: list(
     [Abschluss im Schwerpunkt *Softwareentwicklung*, ergänzt durch fundierte Kenntnisse in Datenbanken und Netzwerktechnik.],
   ),
@@ -23,7 +22,6 @@
   society: [Hotel Sonnblick],
   date: [08/2011 - 08/2014],
   location: [Plangeross, Österreich],
-  logo: image("../src/logos/ucla.png"),
   description: list(
     
   ),

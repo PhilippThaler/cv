@@ -10,7 +10,6 @@
 #cvEntry(
   title: [Self-Hosted DevOps-Infrastruktur (seit 2018)],
   society: [Umfassendes Home-Lab & Permanente Weiterbildung],
-  logo: image("../src/logos/xyz_corp.png"),
   date: [05/2018 - Heute],
   location: [Innsbruck, Österreich],
   description: list(
@@ -27,7 +26,6 @@
 #cvEntry(
   title: [Junior Softwareentwickler (DevOps-Schnittstelle)],
   society: [Ferchau Austria GmbH (Allgemeines Rechenzentrum - ARZ)],
-  logo: image("../src/logos/abc_company.png"),
   date: [03/2020 - 07/2022],
   location: [Innsbruck, Österreich],
   description: list(
@@ -42,7 +40,6 @@
 #cvEntry(
   title: [Softwareentwickler (Diplomarbeit)],
   society: [Tiroler Gemüsekiste],
-  logo: image("../src/logos/pqr_corp.png"),
   date: [11/2018 - 06/2019],
   location: [Imst, Österreich],
   description: list(
