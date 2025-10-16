@@ -57,11 +57,11 @@ language = "en"
     # The order of this section will affect how the entries are displayed
     # The custom value is for any additional information you want to add, name it as custom-1, custom-2, etc.
     [personal.info]
-        github = "philippthaler"
-        phone = "+33 6 12 34 56 78"
         email = "john.doe@me.org"
+        phone = "+33 6 12 34 56 78"
+        github = "philippthaler"
+        gitlab = "thalerphilipp"
 #linkedin = "johndoe"
-        # gitlab = "yunanwg"
         # homepage = "jd.me.org"
         # orcid = "0000-0000-0000-0000"
         # researchgate = "John-Doe"
