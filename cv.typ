@@ -38,7 +38,7 @@
 
 #show: cv.with(
   metadata,
-  profilePhoto: image("./src/avatar.png"),
+  profilePhoto: image("./src/pic.jpg"),
 )
 #importModules((
   "skills",
