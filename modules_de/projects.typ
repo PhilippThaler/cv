@@ -52,16 +52,15 @@
 )
 
 #cvSubsection("Interessen und Soft Skills")
-#move(dy: -25pt)[
-  #cvEntry(
-    title: [],
-    society: [],
-    date: [],
-    location: [],
-    description: list(
-      [Analytisches Denken & Strategie: Interesse an komplexen *Strategie- und Rollenspielen*, was die Fähigkeit zur langfristigen Planung und zur Analyse komplexer Systeme unterstreicht.],
-      [Disziplin & Resilienz: Regelmäßiges *Fitness-Training (2x wöchentlich)* zur Förderung der körperlichen und mentalen Ausdauer (im Zuge der strukturierten Wiedereingliederung).],
-      [Naturverbundenheit: *Wandern und Naturerlebnisse* als Ausgleich zur Bildschirmarbeit.]
-    ),
-  )
-]
+
+#move(dx: 0pt, dy: -25pt, cvEntry(
+  title: [],
+  society: [],
+  date: [],
+  location: [],
+  description: list(
+    [Analytisches Denken & Strategie: Interesse an komplexen Strategie- und Rollenspielen, was die Fähigkeit zur langfristigen Planung und zur Analyse komplexer Systeme unterstreicht.],
+    [Disziplin & Resilienz: Regelmäßiges Fitness-Training (2x wöchentlich) zur Förderung der körperlichen und mentalen Ausdauer (im Zuge der strukturierten Wiedereingliederung).],
+    [Naturverbundenheit: Wandern und Naturerlebnisse als Ausgleich zur Bildschirmarbeit.]
+  ),
+))
