@@ -42,6 +42,7 @@
 )
 #importModules((
   "skills",
+  "summary",
   "professional",
   "education",
   "projects",
