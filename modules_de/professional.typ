@@ -13,14 +13,13 @@
   date: [05/2018 - Heute],
   location: [Innsbruck, Österreich],
   description: list(
-    [Aktiver Betrieb und Wartung eines dedizierten *Debian Linux Servers* mit einer komplexen Container-Umgebung (*20+ Dienste*).],
-    [Konfiguration des Netzwerks über *OpenWrt* (Linux-basiert) und Absicherung mittels *WireGuard VPN* und *Pi-hole (DNS-Level Security)*.],
-    [Bereitstellung aller Dienste mittels *Docker* und *docker-compose* hinter einem *SWAG (Nginx) Reverse Proxy*.],
-    [Aufbau eines *Prometheus/Grafana/Loki (PLG)-Stacks* zur zentralen Systemüberwachung und Log-Analyse.],
-    [Anwendung von *Infrastructure as Code (IaC)-Prinzipien* durch Verwaltung der *Arch Linux Dotfiles* auf GitHub.],
-    [Aktive Teilnahme am *Caravan-Programm (Promente)* zur strukturierten und stabilen Wiedereingliederung.],
+    [Aktiver Betrieb und Wartung eines dedizierten Debian Linux Servers mit einer komplexen Container-Umgebung (30+ Dienste).],
+    [Bereitstellung aller Dienste mittels Docker und docker-compose hinter einem SWAG (Nginx) Reverse Proxy.],
+    [Verwaltung der gesamten Infrastruktur (Debian Server, Docker, Workstation) mittels Infrastructure as Code (IaC)-Prinzipien (Docker Compose Files und Dotfiles auf GitHub).],
+    [Konfiguration des Netzwerks über OpenWrt (Linux-basiert) und Absicherung mittels WireGuard VPN und Pi-hole (DNS-Level Security).],
+    [Aufbau eines Prometheus/Loki/Grafana (PLG)-Stacks zur zentralen Systemüberwachung und Log-Analyse.],
+    [Aktive Teilnahme am Caravan-Programm (Promente) zur strukturierten und stabilen Wiedereingliederung.],
   ),
-//  tags: ("Tags Example here", "Dataiku", "Snowflake", "SparkSQL"),
 )
 
 #cvEntry(
