@@ -26,7 +26,7 @@ jobs:
           fetch-depth: 1
 
       - name: Create secrets.toml
-        run: echo "${{ secrets.CV_METADATA_SECRETS }}" > secrets.toml
+        run: echo "${{ secrets.CV_METADATA_SECRETS }}" | base64 -d > secrets.toml
         shell: bash
 
       - name: Setup Typst
