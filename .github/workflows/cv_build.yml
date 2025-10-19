@@ -43,6 +43,7 @@ jobs:
         uses: typst-community/setup-typst@v4
         with:
           typst-version: 'latest'
+          font-path: ~/.fontist/fonts
 
       - name: Compile CV Document
         run: typst compile cv.typ cv_en.pdf --input lang=en
