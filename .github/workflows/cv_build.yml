@@ -27,7 +27,6 @@ jobs:
       - name: Create secrets.toml
         run: echo "${{ secrets.CV_METADATA_SECRETS }}" > secrets.toml
         shell: bash
-        if: ${{ secrets.CV_METADATA_SECRETS != '' }}
 
       - name: Setup Typst
         uses: typst-community/setup-typst@v4
