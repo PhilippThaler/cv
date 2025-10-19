@@ -40,8 +40,15 @@ jobs:
       - name: Compile CV Document
         run: typst compile cv.typ cv_de.pdf --input lang=de
 
-      - name: Upload Artifact
+      - name: Upload Artifact en
         uses: actions/upload-artifact@v4
         with:
-          name: compiled-cv
-          path: CV_en.pdf
+          name: compiled-cv-en
+          path: cv_en.pdf
+
+      - name: Upload Artifact de
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-cv-de
+          path: cv_de.pdf
+        
