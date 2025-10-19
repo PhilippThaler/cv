@@ -44,13 +44,12 @@ jobs:
         uses: typst-community/setup-typst@v4
         with:
           typst-version: 'latest'
-          font-path: ~/.fontist/fonts
 
       - name: Compile CV Document
-        run: typst compile cv.typ cv_en.pdf --input lang=en
+        run: typst compile cv.typ cv_en.pdf --input lang=en --font-path ¨/.fontist/fonts
 
       - name: Compile CV Document
-        run: typst compile cv.typ cv_de.pdf --input lang=de
+        run: typst compile cv.typ cv_de.pdf --input lang=de --font-path ¨/.fontist/fonts
 
       - name: Upload Artifact en
         uses: actions/upload-artifact@v4
