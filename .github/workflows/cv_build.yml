@@ -30,6 +30,7 @@ jobs:
 
       - name: Install Fonts
         run: |
+          fontist update
           fontist install "Source Sans Pro"
           fontist install "Roboto"
           fontist install "Font Awesome 6 Free"
