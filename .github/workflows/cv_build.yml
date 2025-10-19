@@ -25,6 +25,16 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Setup Fontist
+        uses: fontist/setup-fontist@v2
+
+      - name: Install Fonts
+        run: |
+          fontist install "Source Sans Pro"
+          fontist install "Roboto"
+          fontist install "Font Awesome 6 Free"
+          fontist install "Font Awesome 6 Brands"
+
       - name: Create secrets.toml
         run: echo "${{ secrets.CV_METADATA_SECRETS }}" | base64 -d > secrets.toml
         shell: bash
