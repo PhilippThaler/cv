@@ -12,7 +12,7 @@
 
 
 #cvEntry(
-  title: [Strukturelle Wiedereingliederung  Aktive Weiterbildung],
+  title: [Strukturelle Wiedereingliederung, Aktive Weiterbildung],
   society: [Eigeninitiative (Projekte, Caravan, AMS)],
   date: [07/2022 - Heute],
   location: [Innsbruck, Österreich],
@@ -52,15 +52,16 @@
 )
 
 #cvSubsection("Interessen und Soft Skills")
-
+#set par(justify: true)
 #move(dx: 0pt, dy: -25pt, cvEntry(
   title: [],
   society: [],
   date: [],
   location: [],
   description: list(
-    [Analytisches Denken & Strategie: Interesse an komplexen Strategie- und Rollenspielen, was die Fähigkeit zur langfristigen Planung und zur Analyse komplexer Systeme unterstreicht.],
-    [Disziplin & Resilienz: Regelmäßiges Fitness-Training (2x wöchentlich) zur Förderung der körperlichen und mentalen Ausdauer (im Zuge der strukturierten Wiedereingliederung).],
-    [Naturverbundenheit: Wandern und Naturerlebnisse als Ausgleich zur Bildschirmarbeit.]
+    [*Strukturierte & Effiziente Arbeitsweise:* Entscheidend für Konfigurationsmanagement und die Gewährleistung von Stabilität in der komplexen Container-Infrastruktur (Home-Lab).],
+    [*Prozessverständnis:* Fokus auf die Optimierung und Automatisierung von Abläufen, insbesondere im Kontext von CI/CD und Deployment-Strategien.],
+    [*Hohe Lernbereitschaft & IT-Affinität:* Unabdingbar für die Einarbeitung in neue Monitoring-Tools (PLG-Stack) und Linux-Distributionen (Debian, OpenWrt).],
+    [*Zuverlässigkeit:* Gewährleistung eines stabilen und verfügbaren Betriebs von Systemen und Diensten.]
   ),
 ))
