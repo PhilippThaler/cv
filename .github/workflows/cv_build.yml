@@ -25,6 +25,17 @@ jobs:
         with:
           fetch-depth: 1
 
+      - name: Setup Fontist
+        uses: fontist/setup-fontist@v2
+
+      - name: Install Fonts
+        run: |
+          fontist update
+          fontist install "Source Sans Pro"
+          fontist install "Roboto"
+          fontist install "Font Awesome 6 Free"
+          fontist install "Font Awesome 6 Brands"
+
       - name: Create secrets.toml
         run: echo "${{ secrets.CV_METADATA_SECRETS }}" | base64 -d > secrets.toml
         shell: bash
@@ -35,13 +46,20 @@ jobs:
           typst-version: 'latest'
 
       - name: Compile CV Document
-        run: typst compile cv.typ cv_en.pdf --input lang=en
+        run: typst compile cv.typ cv_en.pdf --input lang=en --font-path ¨/.fontist/fonts
 
       - name: Compile CV Document
-        run: typst compile cv.typ cv_de.pdf --input lang=de
+        run: typst compile cv.typ cv_de.pdf --input lang=de --font-path ¨/.fontist/fonts
 
-      - name: Upload Artifact
+      - name: Upload Artifact en
         uses: actions/upload-artifact@v4
         with:
-          name: compiled-cv
-          path: CV_en.pdf
+          name: compiled-cv-en
+          path: cv_en.pdf
+
+      - name: Upload Artifact de
+        uses: actions/upload-artifact@v4
+        with:
+          name: compiled-cv-de
+          path: cv_de.pdf
+        
